@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Produk extends Model
 {
+    public $timestamps = false;
      use HasFactory;
 
     protected $table = 'tblproduk'; // Nama tabel di database
